@@ -15,8 +15,14 @@
     "@fortawesome/free-regular-svg-icons": "^6.4.2",
     "@fortawesome/free-solid-svg-icons": "^6.4.2",
     "@fortawesome/react-fontawesome": "^0.2.0",
+    "awesome": "^0.0.7",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-awesome-slider": "^4.1.0",
+    "react-dom": "^18.2.0",
+    "react-simple-image-slider": "^2.4.1",
+    "react-slick": "^0.29.0",
+    "slick-carousel": "^1.8.1",
+    "slider": "^1.0.4"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",
