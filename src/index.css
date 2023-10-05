@@ -104,3 +104,49 @@
   background-color: green;
 
 }
+.container-food{
+  width: 100%;
+  height: auto;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+}
+.food-box{
+ 
+  width: 21%;
+  display: inline-block ;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+  margin: 20px;
+border-radius: 1.1em;
+
+}
+.food-box img{
+  width: 300px;
+  height: 300px;
+  aspect-ratio: 3/2;
+  object-fit: fill;
+}
+.container-food h1{
+  text-align: center;
+  font-size: 45px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.food-box h2{
+  text-align: center;
+}
+.food-box svg{
+  font-size: 20px;
+  color: rgb(216, 225, 52);
+}
+.circle{
+  border-bottom-left-radius: 2.1em;
+  border-top-left-radius: 2.1em;
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  height: 35px;
+  background-color: rgb(52, 162, 52);
+  color: white;
+  font-size: 18px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
