@@ -10,11 +10,13 @@ function About() {
       <div className='chef-container'>
         {chefs.map((chef) => (
           <div key={chef.id} className='container-det'>
-            <div className='cox'>
+            <div className=''>
               <img src={chef.image} alt='' />
+              <div className='middle'>
               <h3>{chef.name}</h3>
               <p>{chef.age} years</p>
               <p>{chef.des}</p>
+            </div>
             </div>
           </div>
         ))}

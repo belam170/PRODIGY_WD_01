@@ -1,114 +1,149 @@
-.navbar-box {
-  width: 99.5%;
-box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
-
+body{
+  height: 100vh;
+  width: 100%;
+}
+.header{
   position: fixed;
   top: 0;
-  /* z-index: 999; */
-}
-
-.navbar-centre {
+  left: 0;
+  padding: 10px 0%;
   display: flex;
   justify-content: space-between;
-  align-items: center; 
+  align-items: center;
+  width: 100%;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
 }
-
-.navbar-image {
-  width: 7%;
-  display: flex;
-  align-items: center; 
+.header a span{
+ color: #25ad61; 
 }
-
-.navbar-image img {
-  width: 60px;
-  height: auto;
-}
-
-.navbar-box ul {
-  list-style-type: none;
-  margin: 0; 
-  padding: 0; 
-}
-
-.navbar-box ul li {
-  display: inline-block;
-  margin-left: 30px;
-}
-
-.navbar-box ul li a {
-  text-decoration: none;
-  color: #6b6a6a;
-  font-size: 23px;
-}
-
-.navbar-box ul li a:hover {
-  background-color: rgb(52, 162, 52);
-  padding: 5px;
-  border-radius: 0.3em;
+.header .logo{
   color: #000;
+  font-size: 32px;
+  font-family: 600;
+  text-decoration: none;
 }
-
-.navbar-links {
-  display: flex;
-  align-items: center; 
-  justify-content: center;
-
-}
-.slider-content img{
-  width: 30%;
-}
-/* .container-home{
-  margin-top: 80px;
- 
-
-}
-.container-home img{
-  width: 50%;
-  height: auto;
-  aspect-ratio: 3/2;
-}
-
-.slider-item {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.slider-content {
-  display: flex;
-  align-items: center;
-}
-
-.slider-content img {
-  width: 65%;
-  height: auto;
-
-  border-radius: 1.1em;
-  mix-blend-mode: color-burn;
-}
-
-.slider-content p {
-  margin-left: 20px;
-  font-size: 45px;
-}
-.buttons button{
-  margin-top: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 50%;
-  padding: 10px;
-  background-color: rgb(52, 162, 52);
-  border: none;
-  color: #fff;
+.header .navbar a{
+  color: #000;
+  text-decoration: none;
+  margin-left: 35px;
   font-size: 25px;
-  cursor: pointer;
-  border-radius: 0.5em;
+  font-weight: 500;
+  border-radius: 5px;
 }
-.buttons button:hover{
+.activity-section svg{
+   color: #222;
+   font-size: 25px;
+   margin-left: 20px;
+   cursor: pointer;
+   padding: 10px;
+   border-radius: 50%;
+ 
+}
+.activity-section svg:hover{
+  background: #25ad61;
+  color: #fff;
+}
+.login{
+   height: 40px;
+   width: 140px;
+   border-radius: 8px;
+   background-color: #25ad61;
+   color: #fff;
+   font-size: 20px;
+   outline: none;
+   border: 1px solid #25ad61;
+   cursor: pointer;
+}
+.login:hover{
   background-color: green;
+}
+.btn{
+  margin-left: 5px;
+}
+.btn button{
+  margin-top: 10px;
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999; 
+}
+.btn button:hover {background-color: #3e8e41}
+.btn button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(5px);
+}
 
-} */
+
+
+.home-section{
+ height: 100vh;
+ width: 100%;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+.home-section .text-content h1{
+  font-size: 20px;
+  color: #25ad61;
+  font-weight: 500;
+}
+.home-section .text-content h2{
+  font-size: 75px;
+  color: #3d3f56;
+  font-weight: 600;
+}
+.home-section .text-content p{
+  max-width: 600px;
+  color: #222;
+}
+.home-section .image-section img{
+  mix-blend-mode: color-burn;
+  width: 40vw;
+  animation: Bounce 4s ease forwards infinite;
+}
+@keyframes Bounce{
+  0%{
+    transform: translateY(-24px);
+  }
+  50%{
+    transform: translateY(0px);
+  }
+  100%{
+    transform: translateY(-24px);
+  }
+}
+.home-section .image-section .shadow{
+  background:  rgba(0, 0, 0, 0.5);
+  height: 20px;
+  border-radius: 50%;
+  /* box-shadow:  0 20px rgba(0, 0, 0, 0.5); */
+   filter: blur(5px);
+   width: 40vw;
+   animation: BounceIn 4s ease forwards infinite;
+}
+@keyframes BounceIn{
+  0%{
+    transform: translateY(24px) scale(.5);
+  }
+  50%{
+    transform: translateY(0px) scale(1);
+  }
+  100%{
+    transform: translateY(24px) scale(.5);
+  }
+}
+
+
+
 .container-food{
   width: 100%;
   height: auto;

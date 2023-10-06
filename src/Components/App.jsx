@@ -1,29 +1,25 @@
-import React from 'react'
-import Navbar from './Navbar'
-import Home from './Home'
-import Dishes from './Dishes'
-import About from './About'
-import Review from './Review'
+import React from 'react';
+import { BrowserRouter as Router, Routes , Route } from 'react-router-dom';
+import Navbar from './Nav';
+import Home from './Home';
+import Dishes from './Dishes';
+import About from './About';
+import Review from './Review';
+
+
 function App() {
   return (
-    <div >
-      <Navbar />
-      <div className='main'>
-      <section>
-        <Home />
-      </section>
-      <section>
-     <Dishes />
-      </section> 
-      <section>
-        <About />
-      </section>
-      <section>
-        <Review />
-      </section>
-      </div>
-    </div>
-  )
+    <Router>
+        <Navbar />
+          <Routes>
+          <Route path="/"  element={<Home/>} />
+          <Route path="/dishes" element={<Dishes />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/review" element={<Review />} />
+          </Routes>
+  
+    </Router>
+  );
 }
 
-export default App
+export default App;
