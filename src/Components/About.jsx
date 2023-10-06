@@ -6,7 +6,7 @@ function About() {
 
   return (
     <div className='container-about'>
-      <h1>Our Chefs</h1>
+      <h1>Our <span style={{color:"green"}}>Chefs</span></h1>
       <div className='chef-container'>
         {chefs.map((chef) => (
           <div key={chef.id} className='container-det'>

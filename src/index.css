@@ -1,8 +1,9 @@
-body{
+body {
   height: 100vh;
   width: 100%;
 }
-.header{
+
+.header {
   position: fixed;
   top: 0;
   left: 0;
@@ -13,16 +14,19 @@ body{
   width: 100%;
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
 }
-.header a span{
- color: #25ad61; 
+
+.header a span {
+  color: #25ad61;
 }
-.header .logo{
+
+.header .logo {
   color: #000;
   font-size: 32px;
   font-family: 600;
   text-decoration: none;
 }
-.header .navbar a{
+
+.header .navbar a {
   color: #000;
   text-decoration: none;
   margin-left: 35px;
@@ -30,37 +34,48 @@ body{
   font-weight: 500;
   border-radius: 5px;
 }
-.activity-section svg{
-   color: #222;
-   font-size: 25px;
-   margin-left: 20px;
-   cursor: pointer;
-   padding: 10px;
-   border-radius: 50%;
- 
+
+.header .navbar a:hover {
+  padding: 5px;
+  background-color: green;
+  color: #fff;
 }
-.activity-section svg:hover{
+
+.activity-section svg {
+  color: #222;
+  font-size: 25px;
+  margin-left: 20px;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.activity-section svg:hover {
   background: #25ad61;
   color: #fff;
 }
-.login{
-   height: 40px;
-   width: 140px;
-   border-radius: 8px;
-   background-color: #25ad61;
-   color: #fff;
-   font-size: 20px;
-   outline: none;
-   border: 1px solid #25ad61;
-   cursor: pointer;
+
+.login {
+  height: 40px;
+  width: 140px;
+  border-radius: 8px;
+  background-color: #25ad61;
+  color: #fff;
+  font-size: 20px;
+  outline: none;
+  border: 1px solid #25ad61;
+  cursor: pointer;
 }
-.login:hover{
+
+.login:hover {
   background-color: green;
 }
-.btn{
+
+.btn {
   margin-left: 5px;
 }
-.btn button{
+
+.btn button {
   margin-top: 10px;
   display: inline-block;
   padding: 15px 25px;
@@ -73,112 +88,126 @@ body{
   background-color: #4CAF50;
   border: none;
   border-radius: 15px;
-  box-shadow: 0 9px #999; 
+  box-shadow: 0 9px #999;
 }
-.btn button:hover {background-color: #3e8e41}
+
+.btn button:hover {
+  background-color: #3e8e41;
+}
+
 .btn button:active {
   background-color: #3e8e41;
   box-shadow: 0 5px #666;
   transform: translateY(5px);
 }
 
-
-
-.home-section{
- height: 100vh;
- width: 100%;
- display: flex;
- justify-content: space-between;
- align-items: center;
+.home-section {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.home-section .text-content h1{
+
+.home-section .text-content h1 {
   font-size: 20px;
   color: #25ad61;
   font-weight: 500;
 }
-.home-section .text-content h2{
+
+.home-section .text-content h2 {
   font-size: 75px;
   color: #3d3f56;
   font-weight: 600;
 }
-.home-section .text-content p{
+
+.home-section .text-content p {
   max-width: 600px;
   color: #222;
 }
-.home-section .image-section img{
+
+.home-section .image-section img {
   mix-blend-mode: color-burn;
   width: 40vw;
   animation: Bounce 4s ease forwards infinite;
 }
-@keyframes Bounce{
-  0%{
+
+@keyframes Bounce {
+  0% {
     transform: translateY(-24px);
   }
-  50%{
+  50% {
     transform: translateY(0px);
   }
-  100%{
+  100% {
     transform: translateY(-24px);
   }
 }
-.home-section .image-section .shadow{
-  background:  rgba(0, 0, 0, 0.5);
+
+.home-section .image-section .shadow {
+  background: rgba(0, 0, 0, 0.5);
   height: 20px;
   border-radius: 50%;
-  /* box-shadow:  0 20px rgba(0, 0, 0, 0.5); */
-   filter: blur(5px);
-   width: 40vw;
-   animation: BounceIn 4s ease forwards infinite;
+  filter: blur(5px);
+  width: 40vw;
+  animation: BounceIn 4s ease forwards infinite;
 }
-@keyframes BounceIn{
-  0%{
+
+@keyframes BounceIn {
+  0% {
     transform: translateY(24px) scale(.5);
   }
-  50%{
+  50% {
     transform: translateY(0px) scale(1);
   }
-  100%{
+  100% {
     transform: translateY(24px) scale(.5);
   }
 }
 
-
-
-.container-food{
+.container-food {
+  position: fixed;
+  margin-top: 75px;
   width: 100%;
   height: auto;
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
 }
-.food-box{
+
+.food-box {
   width: 21%;
-  display: inline-block ;
+  display: inline-block;
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
   margin: 20px;
-border-radius: 1.1em;
-
+  border-radius: 1.1em;
 }
-.food-box img{
+
+.food-box img {
   width: 300px;
   height: 300px;
   aspect-ratio: 3/2;
   object-fit: fill;
 }
-.food-box img:hover{
+
+.food-box img:hover {
   transform: scale(0.95);
 }
-.container-food h1{
+
+.container-food h1 {
   text-align: center;
   font-size: 45px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.food-box h2{
+
+.food-box h2 {
   text-align: center;
 }
-.food-box svg{
+
+.food-box svg {
   font-size: 20px;
   color: rgb(216, 225, 52);
 }
-.circle{
+
+.circle {
   border-bottom-left-radius: 2.1em;
   border-top-left-radius: 2.1em;
   float: right;
@@ -192,9 +221,10 @@ border-radius: 1.1em;
   font-size: 18px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-/* Add your existing CSS styles here */
 
 .container-about {
+  position: fixed;
+  margin-top: 75px;
   width: 100%;
 }
 
@@ -231,13 +261,12 @@ border-radius: 1.1em;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 20px; /* Adjust the gap as needed */
+  gap: 20px;
 }
 
-/* Additional styles for the chef boxes */
 .chef-container .container-det {
-  width: 21%; /* Adjust the width as needed */
-  margin: 0; /* Remove margin for individual chef boxes */
+  width: 21%;
+  margin: 0;
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
   border-radius: 1.1em;
 }
@@ -249,21 +278,19 @@ border-radius: 1.1em;
 }
 
 .chef-container .container-det img {
-  width: 100%; /* Make images fill the container */
+  width: 100%;
   height: auto;
   border-radius: 0.5em;
   cursor: pointer;
 }
-.container-det p{
+
+.container-det p {
   font-family: fantasy;
 }
-.main{
-  width: 100%;
-  /* height: auto;
-  background-color: #000;
-  overflow: ; */
-}
 
+.main {
+  width: 100%;
+}
 
 .box-reviewer {
   display: flex;
@@ -273,6 +300,7 @@ border-radius: 1.1em;
 }
 
 .reviewer {
+  margin-top: 100px;
   width: 70%;
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
 }
@@ -282,7 +310,6 @@ border-radius: 1.1em;
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 .reviewer img {
@@ -297,7 +324,6 @@ border-radius: 1.1em;
 .reviewer-text {
   flex: 1;
   padding: 20px;
-
 }
 
 .reviewer-text h2 {
@@ -310,25 +336,46 @@ border-radius: 1.1em;
   color: #a5a2a2;
   font-size: 20px;
 }
-.box-reviewer h1{
+
+.box-reviewer h1 {
   text-align: center;
   font-size: 45px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.sliders{
+
+.sliders {
   display: flex;
   width: 100%;
   justify-content: space-between;
 }
-.sliders button{
-padding: 10px;
-background-color: rgb(52, 162, 52);
-border: 1px solid rgb(52, 162, 52);
-font-size: 30px;
-color: #fff;
-cursor: pointer;
-border-radius: 0.3em;
+
+.sliders button {
+  padding: 10px;
+  background-color: rgb(52, 162, 52);
+  border: 1px solid rgb(52, 162, 52);
+  font-size: 30px;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 0.3em;
 }
-.sliders button:hover{
+
+.sliders button:hover {
   background-color: green;
+}
+
+/* Phone-specific CSS */
+@media screen and (max-width: 768px) {
+  body {
+    background-color: #f0f0f0;
+  }
+
+  .header {
+    padding: 5px 0%;
+  }
+
+  .header .navbar a {
+    font-size: 18px;
+  }
+
+  /* Add more phone-specific styles here as needed */
 }

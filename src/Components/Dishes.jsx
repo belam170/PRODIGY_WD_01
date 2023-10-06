@@ -6,7 +6,7 @@ function Dishes() {
     const[displayFood,setDisplayFood] = useState(foodItem)
   return (
     <div className='container-food'>
-        <h1>Our <span>Dishes</span></h1>
+        <h1>Our <span style={{color:"green"}}>Dishes</span></h1>
          {displayFood.map((food)=>(
             <div key={food.id} className='food-box'>
                 <h2>{food.name}</h2>

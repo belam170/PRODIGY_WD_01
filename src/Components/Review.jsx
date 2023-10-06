@@ -20,7 +20,7 @@ function Review() {
   return (
     <div className='box-reviewer'>
       <div className='reviewer'>
-        <h1>Reviews</h1>
+        <h1>What Our <span style={{color:"green"}}>Clients Say</span></h1>
         <div className='sliders'>
         <button onClick={handlePrevClick}><FontAwesomeIcon icon={faAngleLeft} /></button>
         <button onClick={handleNextClick} className='button1'><FontAwesomeIcon icon={faAngleRight} /></button>
