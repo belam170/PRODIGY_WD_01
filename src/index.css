@@ -363,7 +363,7 @@ body {
   background-color: green;
 }
 
-/* Phone-specific CSS */
+
 @media screen and (max-width: 768px) {
   body {
     background-color: #f0f0f0;
@@ -377,5 +377,5 @@ body {
     font-size: 18px;
   }
 
-  /* Add more phone-specific styles here as needed */
+
 }
