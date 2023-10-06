@@ -32,6 +32,27 @@ const foodItem = [
         img: "https://www.seriouseats.com/thmb/An34r_jzWgDqNglX2fA-MlylivE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2019__10__20191023-chicken-adobo-vicky-wasik-21-d505a30b74f04709b316efa225e5ea94.jpg",
         rating: 4.4,
         price: 10.99
+    },
+    {
+        id:5,
+        name: "Chicken Adobo",
+        img: "https://www.seriouseats.com/thmb/An34r_jzWgDqNglX2fA-MlylivE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2019__10__20191023-chicken-adobo-vicky-wasik-21-d505a30b74f04709b316efa225e5ea94.jpg",
+        rating: 4.4,
+        price: 10.99
+    },
+    {
+        id:5,
+        name: "Chicken Adobo",
+        img: "https://www.seriouseats.com/thmb/An34r_jzWgDqNglX2fA-MlylivE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2019__10__20191023-chicken-adobo-vicky-wasik-21-d505a30b74f04709b316efa225e5ea94.jpg",
+        rating: 4.4,
+        price: 10.99
+    },
+    {
+        id:5,
+        name: "Chicken Adobo",
+        img: "https://www.seriouseats.com/thmb/An34r_jzWgDqNglX2fA-MlylivE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2019__10__20191023-chicken-adobo-vicky-wasik-21-d505a30b74f04709b316efa225e5ea94.jpg",
+        rating: 4.4,
+        price: 10.99
     }
 ]
 export default foodItem;

@@ -1,6 +1,7 @@
 .navbar-box {
-  width: 99%;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  width: 99.5%;
+box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+
   position: fixed;
   top: 0;
   /* z-index: 999; */
@@ -19,7 +20,7 @@
 }
 
 .navbar-image img {
-  width: 70px;
+  width: 60px;
   height: auto;
 }
 
@@ -53,13 +54,16 @@
   justify-content: center;
 
 }
-.container-home{
+.slider-content img{
+  width: 30%;
+}
+/* .container-home{
   margin-top: 80px;
  
 
 }
 .container-home img{
-  width: 80%;
+  width: 50%;
   height: auto;
   aspect-ratio: 3/2;
 }
@@ -76,10 +80,11 @@
 }
 
 .slider-content img {
-  width: 70%;
+  width: 65%;
   height: auto;
-  aspect-ratio: 3/2;
+
   border-radius: 1.1em;
+  mix-blend-mode: color-burn;
 }
 
 .slider-content p {
@@ -103,14 +108,13 @@
 .buttons button:hover{
   background-color: green;
 
-}
+} */
 .container-food{
   width: 100%;
   height: auto;
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
 }
 .food-box{
- 
   width: 21%;
   display: inline-block ;
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
@@ -123,6 +127,9 @@ border-radius: 1.1em;
   height: 300px;
   aspect-ratio: 3/2;
   object-fit: fill;
+}
+.food-box img:hover{
+  transform: scale(0.95);
 }
 .container-food h1{
   text-align: center;
@@ -149,4 +156,144 @@ border-radius: 1.1em;
   color: white;
   font-size: 18px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* Add your existing CSS styles here */
+
+.container-about {
+  width: 100%;
+}
+
+.container-about h1 {
+  text-align: center;
+  font-size: 45px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container-det {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 45%;
+}
+
+.cox {
+  border: 10px solid rgb(52, 162, 52);
+  border-radius: 1.1em;
+  text-align: center;
+}
+
+.container-det img {
+  width: 145px;
+  height: 300px;
+  aspect-ratio: 2/2;
+  border-radius: 0.5em;
+  cursor: pointer;
+}
+
+.chef-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* Adjust the gap as needed */
+}
+
+/* Additional styles for the chef boxes */
+.chef-container .container-det {
+  width: 21%; /* Adjust the width as needed */
+  margin: 0; /* Remove margin for individual chef boxes */
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+  border-radius: 1.1em;
+}
+
+.chef-container .container-det .cox {
+  border: 10px solid rgb(52, 162, 52);
+  border-radius: 1.1em;
+  text-align: center;
+}
+
+.chef-container .container-det img {
+  width: 100%; /* Make images fill the container */
+  height: auto;
+  border-radius: 0.5em;
+  cursor: pointer;
+}
+.container-det p{
+  font-family: fantasy;
+}
+.main{
+  width: 100%;
+  /* height: auto;
+  background-color: #000;
+  overflow: ; */
+}
+
+
+.box-reviewer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+}
+
+.reviewer {
+  width: 70%;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+}
+
+.container-reviewer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.reviewer img {
+  border-top-right-radius: 0.4em;
+  border-bottom-left-radius: 0.4em;
+  border-top-left-radius: 2.1em;
+  border-bottom-right-radius: 2.1em;
+  width: 300px;
+  aspect-ratio: 3/2;
+}
+
+.reviewer-text {
+  flex: 1;
+  padding: 20px;
+
+}
+
+.reviewer-text h2 {
+  font-size: 40px;
+  text-align: center;
+  color: rgb(6, 60, 6);
+}
+
+.reviewer-text p {
+  color: #a5a2a2;
+  font-size: 20px;
+}
+.box-reviewer h1{
+  text-align: center;
+  font-size: 45px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.sliders{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.sliders button{
+padding: 10px;
+background-color: rgb(52, 162, 52);
+border: 1px solid rgb(52, 162, 52);
+font-size: 30px;
+color: #fff;
+cursor: pointer;
+border-radius: 0.3em;
+}
+.sliders button:hover{
+  background-color: green;
 }

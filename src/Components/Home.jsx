@@ -20,7 +20,7 @@ function Home() {
         <Slider {...settings}>
           <div className="slider-item">
             <div className="slider-content">
-              <img src="images/recipe2.jpeg" alt="not found" />
+              <img src="images/ham.png" alt="not found" />
               <p>Get our meals at affordable prices  <div className='buttons'>
               <button>Order Now</button>
               </div></p>
